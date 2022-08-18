@@ -25,12 +25,12 @@ let questions = [
   {
   numb: 3,
   question: "What should the education section include?",
-  answer: "Lowest level of education to highest level of education.",
+  answer: "Lowest level of education to highest level of education",
   options: [
     "Lowest level of education to highest level of education",
     "Past teachers",
     "High school schedule",
-    "Past classmates."
+    "Past classmates"
   ]
 },
   {
