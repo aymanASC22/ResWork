@@ -2,6 +2,7 @@ div{
     font-family:'Lucida Sans';
     color: rgb(255, 255, 255);
     font-size: 140%;
+
 }
 
 #big_div {
@@ -20,6 +21,8 @@ img {
 .items:hover {
     background-color: gray;
     opacity: 0.5;
+    color:black;
+    border-radius:10px;
 }
 
 #main {
@@ -69,7 +72,76 @@ img {
     justify-content: space-around;
 }*/
 
-#look_nicer1{
+#look_nicer{
 
-    font-size: 50px;
+    font-size: 70px;
+    margin-left: 50px;
+    font-family:'Lucida Sans';
+   
+    
+   
+
+    
+}
+
+#look_nicer1{
+    border: 10px solid  #6792e4 ;
+    display:flex;
+    justify-content: center;
+    background-color: #04334b;
+    border-radius:20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin :100px;
+    color:white;
+    text-decoration: none;
+    
+}
+
+#look_nicer2{
+    border: 10px solid  #6792e4 ;
+    display:flex;
+    justify-content: center;
+    background-color: #04334b;
+    border-radius:20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin: 100px;
+    color:white;
+    text-decoration: none;
+}
+
+#look_nicer3{
+    border: 10px solid  #6792e4 ;
+    display: flex;
+    justify-content: center;
+    background-color: #04334b;
+    border-radius:20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin : 100px;
+    color:white;
+    text-decoration: none;
+}
+
+
+#look_nicer a:hover {
+    background-color: gray;
+    opacity: 0.5;
+
+    color:black
+
+}
+
+
+#delete-line{
+    text-decoration: none;
+}
+
+#delete-line2{
+    text-decoration: none;
+}
+
+#delete-line3{
+    text-decoration: none;
 }

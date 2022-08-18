@@ -1,7 +1,7 @@
 div{
     font-family:'Lucida Sans';
     color: rgb(255, 255, 255);
-    font-size: 140%;
+    font-size: 1.4em;
 }
 
 #big_div {
@@ -13,6 +13,21 @@ div{
 
 }
 
+#div2 {
+    font-family:'Lucida Sans';
+    color: rgb(0, 0, 0);
+}
+
+/* CHANGES ALL H3 and H4 within #div2 */
+#div2 h3 {
+    font-size: 3.2rem;
+}
+
+/* CHANGES ALL BULLET POINTS */
+#div2 li {
+    font-size: 2.2rem;
+}
+
 img {
     width: 5%;
 }
@@ -20,6 +35,8 @@ img {
 .items:hover {
     background-color: gray;
     opacity: 0.5;
+    color:black;
+    border-radius:10px;
 }
 
 #main {
@@ -61,10 +78,16 @@ img {
     justify-content: space-around;
     color: black
 }
-/*
-#About_us {
-    float: none;
-    width: 360%;
-    height: 470%;
-    justify-content: space-around;
-}*/
+
+
+#delete-line{
+    text-decoration: none;
+}
+
+#delete-line2{
+    text-decoration: none;
+}
+
+#delete-line3{
+    text-decoration: none;
+}
